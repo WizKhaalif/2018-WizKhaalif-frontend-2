@@ -1,0 +1,129 @@
+*{
+    font-family: "Roboto", light, sans-serif;
+    margin:0;
+}
+.NavBar{
+    display: flex;
+    justify-content: center;
+    background: #16A085;
+    height: 100px;
+}
+.Button{
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #16A085;
+    text-align: center;
+    text-decoration-line: none;
+    text-transform: uppercase;
+}
+.Button-NavBar{
+    font-family: "Raleway", light, sans-serif;
+    line-height: 100px;
+    width: 120px;
+}
+.Button-NavBar-Active{
+    background: #1ABC9C;
+}
+.Button-Alone{
+    padding: 15px 65px;
+}
+.Banner{
+    font-size: 44px;
+    color: #FFFFFF;
+    padding-top: 115px;
+    text-align: center;
+    height: 167.75px;
+    background: #333333;
+}
+.Banner-Bottom{
+    height:132.25;
+    padding-top:0;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.GrassImg{
+    height: 350px;
+    background: url(images/GrassImg.jpg);
+    background-size: cover;
+}
+.Main{
+    display: flex;
+    justify-content: space-between;
+}
+.Paragraph{
+    margin: 50px;
+    font-size: 16px;
+    color: #000000;
+}
+.Headline{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.Headline-PL{
+    color: #16A085;
+}
+.Headline-MainText{
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    color: #16A085;
+}
+.Subtitle{
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #6F6F6F;
+}
+.Subtitle-Footer{
+    color:#B1B1B1;
+    font-size: 24px;
+}
+.MainText{
+    margin-top: 32px;
+}
+.PopularLinks{
+    margin: 50px;
+    font-size: 14px;
+    color: #000000;
+    min-width: 350px;
+    max-width: 350px;
+}
+.List{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Link{
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #B1B1B1;
+    color: #000000;
+    text-decoration-line: underline;
+}
+.Link-Footer{
+    color:#B1B1B1;
+}
+.Link-Copyright{
+    color: #ffffff;
+}
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    background: #333333;
+}
+.IconList{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.Copyright{
+    height: 180px;
+    background: #16A085;
+    line-height: 180px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
